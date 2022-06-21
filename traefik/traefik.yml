@@ -1766,7 +1766,7 @@ spec:
       #  persistentVolumeClaim:
       #    claimName: traefik-data
       containers:
-      - image: traefik:2.6.4
+      - image: traefik:2.8
         name: traefik
         args:
           - "--accesslog=true"
